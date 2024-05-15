@@ -3,8 +3,8 @@
 -- If you where assigned Goteborg, use Helsinborg as the other port.
 -- HELSINGBORG to goteborg
 WITH Ports(Helsingborg, Goteborg) AS (
-    SELECT ST_MakeEnvelope(356511, 6211420, 356911, 6211820, 25832),
-        ST_MakeEnvelope(671606, 6397400, 672206, 6398000, 25833)
+    SELECT ST_MakeEnvelope(729691, 6216949, 730091, 6217349, 25832),
+        ST_MakeEnvelope(671606, 6397400, 672206, 6398000, 25832)
 )
 SELECT S.*,
     Helsingborg,
