@@ -1,5 +1,5 @@
 SELECT -- Helsingborg port
-1 as id, ST_MakeEnvelope(729691, 6216949, 730091, 6217349, 25832)
+1 as id, ST_MakeEnvelope(728000, 6218000, 730000, 6213300, 25832)
 as g
 UNION ALL
 SELECT -- Goteborg port
