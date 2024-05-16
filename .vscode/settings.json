@@ -17,6 +17,16 @@
             "name": "vessels",
             "database": "vessels",
             "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "opensky",
+            "database": "opensky",
+            "username": "postgres",
+            "password": "postgres"
         }
     ]
 }

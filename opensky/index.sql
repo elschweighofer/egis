@@ -1,0 +1,1 @@
+CREATE INDEX icao24_time_index ON Flights (icao24, et_ts);
